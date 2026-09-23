@@ -1,0 +1,47 @@
+ul>li:first-child {
+    color: fuchsia;
+}
+body {
+    background-color: rgb(255, 0, 0);
+    Color: #01292532;
+}
+#Hello {
+    color: white;
+    padding: 65px;
+    border: dotted 90px;
+}
+
+.list {
+    background-color: rgb(0, 255, 0);
+    margin: 50px;
+    color: blue;
+}
+img {
+    width: 200px;
+    height: 1000px;
+}
+
+li {
+    font-size: 300px;
+}
+
+a[href*="frhsd.com"] {
+    color: limegreen;
+}
+
+a:visited {
+    color: beige;
+}
+
+li:hover {
+    background-color: navy;
+}
+div {
+    li {
+        line-break: anywhere;
+    }
+}
+
+li+li {
+
+}
