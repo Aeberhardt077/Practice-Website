@@ -45,3 +45,30 @@ div {
 li+li {
 
 }
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Manogomus {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto auto;
+    gap: 12px;
+    img {
+        grid-column:span 3;
+        grid-row: span 3;
+        height: 100%;
+        width: 100%;
+    }
+    p {
+        grid-column:span 2;
+        grid-row: span 2;
+    }
+    a {
+        grid-column:span 1;
+        grid-row: span 1;
+    }
+}
