@@ -7,8 +7,8 @@ body {
 }
 #Hello {
     color: white;
-    padding: 65px;
-    border: dotted 90px;
+    padding: 10px;
+    border: dotted 30px;
 }
 
 .list {
